@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        i {
+            color: rgb(219, 161, 13);
+        }
+        
+        .card {
+            width: 400px;
+            border: 2px solid black;
+            height:430px;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            align-items: center;
+            text-align: left;
+
+            
+        }
+        img{
+            width: 400px;
+            height: 250px;
+            border-radius: 10px;
+           
+        }
+        #pet{
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             
+        }
+        @media (max-width:375px){
+            #pet{
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h3><i>Adoptme.com</i></h3>
+    <h1>Adopt a pet Today</h1>
+    <br />
+    <div id="pet">
+        <div class="card">
+            <img src="dog-puppy-on-garden-royalty-free-image-1586966191.avif" alt="jerry">
+            <h3>Meet jerry</h3>
+            <p>
+                Jerry Mouse, a brown house mouse and one of the two titular characters in Metro-Goldwyn-Mayer's "Tom and
+                Jerry" series, is an anthropomorphic, usually silent, character known for his quick wit and
+                resourcefulness in outsmarting his rival, Tom Cat.
+            </p>
+        </div>
+        <div class="card">
+            <img src="cats.avif" alt="tom">
+            <h3>Meet Tom</h3>
+            <p>
+                Tom, the blue-grey and white cat, and Jerry, the brown house mouse, are iconic for their never-ending
+                pursuit and antics, even though they often end up helping each other out or at least sharing a moment of
+                peace. Their simple, yet engaging, animation and slapstick comedy are what makes them so entertaining,
+                and their characters are timeless and relatable, even for adults.
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
