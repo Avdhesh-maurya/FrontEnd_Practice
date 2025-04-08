@@ -1,0 +1,10 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid black;
+    border-left-style: dotted;
+    border-left-color: rgb(101, 59, 59);
+    border-radius: 50px;
+    border-bottom-left-radius: 100px;
+}
